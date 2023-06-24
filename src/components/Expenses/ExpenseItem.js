@@ -1,8 +1,12 @@
 import React from "react";
 import "./ExpenseItem.css";
 import ExpenseDate from "./ExpenseDate";
+<<<<<<< HEAD:src/components/Expenses/ExpenseItem.js
+import Card from "../UI/Card";
+=======
 import Card from "./Card";
 import { useState } from "react";
+>>>>>>> main:src/components/ExpenseItem.js
 
 // WAY 1. Props as arguments - one object of key value pairs
 function ExpenseItem(props) {
