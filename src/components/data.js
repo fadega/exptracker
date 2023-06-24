@@ -1,12 +1,4 @@
-import React from "react";
-
-import ExpenseItem from "./components/ExpenseItem";
-import Expenses from "./components/Expenses";
-// import data from "./components/data";
-
-
-function App() {
-  const expenses = [
+const expenses = [
     {
       id: "1",
       title: "Car Insurance",
@@ -32,15 +24,3 @@ function App() {
       date: new Date(2021, 2, 28),
     },
   ];
-  return (
-    <div className="App">
-      <h1>React App</h1>
-
-      <Expenses items={expenses}></Expenses>
-   
-
-    </div>
-  );
-}
-
-export default App;
